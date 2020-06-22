@@ -1,0 +1,11 @@
+…or create a new repository on the command line
+echo "# spider" >> README.md 先创建一个文件
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/syc23/spider.git
+git push -u origin master
+                
+…or push an existing repository from the command line
+git remote add origin https://github.com/syc23/spider.git
+git push -u origin master
