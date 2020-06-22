@@ -1,0 +1,133 @@
+爬虫笔记
+1、import parsel(集成了re，css，xpath)的选择工具，
+   sel = parsel.Selectot(),正则sel.re,xpath(sel.xpath类似于scapy使用)，sel.css
+2、import jsonpath  jsonpath.jsonpath(obj,"提取规则（$..想要提取值的key）")，obj转化成python类型的json（json.loads(content)/json()）
+   避免了一层一层提取的麻烦（for循环）例：title = jsonpath.jsonpath(content,'$..types') 如果types下面还有值（jsonpath.jsonpath(content,'$..types.(key)')）
+3、response.encoding = response.apparent_encoding(万能编码，能自动识别文本的编码形式)
+4、from urllib import request（ request.urlretrieve(文件下载链接,文件名)）python3版本
+4、from retrying import retry (设置可以尝试重新请求次数)
+    @retry(stop_max_attempt_number=3)
+    def get_content():如果这个函数请求失败，将会重试三次
+        print(11111111111111)
+        return requests.get('www.baidu.com')
+    def deal_error():
+        try:
+            get_content()
+        except Exception as e:
+            print(e)
+5、from urllib.parse import quote（编码）,unquote（解码）python3版本 或者使用 from requests import unquote,quote
+5、from multiprocessing import pool (p = pool.Pool(),p.map(执行函数名，传递给函数的可迭代对象))（使用进程池，实现多进程下载）
+6、import pprint(漂亮打印pprint.pprint())
+7、（.*?）:(.*?) ——>'$1':'$2',（正则实现给键值对添加引号和逗号分隔符）
+8、LinkExtractor(链接提取规则)，LinkExtractor（allow（r''） deny('')（过滤掉不需要的url））
+9、字体反爬（字体解密——>抓包找到字体文件一般是wolf或者ttf结尾的），python工具用于映射，用来将字体文件转化成可读模式
+   form fontTools.ttLib import TTFont    ttfont =TTfont('字体文件')，ttfont.saveXML("转换后的文件")。
+  ‘用来映射字体文件和真正的字体’,
+   (1)ttfont =TTfont('字体文件')
+   读取映射表 映射 网页中加密的字符串到num_x
+   (2)best_cmap = ttfont['cmap'].getBestCmap()
+    new_best_cmap = {}
+   (3)for key,value in best_cmap.items():
+          hex(key),value #hex(转成十六进制)
+          new_best_cmap[hex(key):value)]=value  ————>得到'0xe603':'num_1'的映射关系
+   (4) num_map = {
+        'x':'','num_':1,..........
+    }
+   (5)  result = {}
+        for key,value in new_best_cmap:
+           result[key] = num_map[value]
+        最后得到 '0xe603':'0'的映射关系
+10、cookies转换成字典形式
+     cookies = 'WEATHER_COOKIE_CITY_KEY=101040100%7C%E9%87%8D%E5%BA%86; baidu_shuffle_0309_3=1; baidu_shuffle_0309=1; baidu_shuffle_20180821=1; _dbsg=ij7t5mdfksda8fksdafka19b04cef36a; CNZZDATA30089211=cnzz_eid%3D1487965383-1556769160-http%253A%252F%252Fnews.duba.com%252F%26ntime%3D1556769160; UM_distinctid=16b0c3ca2a56-02ecbbcb2160a6-2b6f686a-1fa400-16b0c3ca2a6960; changevertips=1; t_manual=0; t_web_page=1; kws_dubasvrid=1d39d7ca20c19b9f5a16cde7000bda60; orpv=1; redLinkIdxs=1%2C5%2C1%2C5%2C1%2C6%2C1%2C6%2C2%2C5%2C1%2C4%2C2%2C5%2C1%2C5%2C1%2C5%2C2%2C4; userIDF=15636734022354e63j; CNZZDATA30069637=cnzz_eid%3D477995153-1563672919-%26ntime%3D1563716119; __kp=4upppnimecrvy4seq754xcbi9vix; __kt=1563673413; act=7/21:2; __vgl=1; reqtimesN=NaN; ggRuleIndex=0; leftHookTipIndex=4; Hm_lvt_47c19b16e7362939c0067988e0da87cd=1563534956,1563673408; Hm_lpvt_47c19b16e7362939c0067988e0da87cd=1563721016'
+     cookies_dic = {x.split('=')[0]:x.split('=')[1] for x in data.split('; ')}(字典推导式)
+11、正则：.不能匹配（\n）,\w:字母，数字，下划线。* 0次或者多次，? 0次或者一次，+ 一次或者多次
+12、csv模块的使用方法(两种写入方法)：
+    （1）以列表的形式
+        1、打开csv文件：with open ('test.csv','a',newline="") as f:(newline=""默认为\n)
+        2、初始化写入对象：
+            header= ['列名1','列名2','列名3']
+            writer = csv.writer(f)
+            writer.writerow(header)
+        3、写入数据：writer.writerow(列表)
+     （2）以字典的形式
+         1、打开csv文件：with open ('test.csv','a',newline="") as f:(newline=""默认为\n)
+         2、初始化写入对象：
+                header= ['列名1','列名2','列名3']
+                writer = csv.DictWriter(f,header)
+                writer.writeheader() 写入表头数据时需要调用这个方法
+         3、写入数据：writer.writerows(字典)
+13、excel存储方法：
+    import xlwt
+    book = xlwt.Workbook(encoding='utf-8')
+    sheet = book.add_sheet('ke_qq',cell_overwrite_ok=True)
+    head = ['列1','列2','列3']     #表头
+    for h in range(len(head)):
+        sheet.write(0,h,head[h])    #写入表头
+    a = [[1,2,3,4],[5,6,7,8],[9,1,2,3]]
+    i = 1
+    for data in a:
+        j = 0
+        for da in data:
+            sheet.write(i,j,da)
+            j+=1
+        i+=1
+    book.save(aa.xls')
+14、验证码识别
+    url不变，验证码不变
+        请求验证码的地址，获得响应，识别
+    url不变，验证码会变（12306官网）
+        思路：对方服务器返回验证码的时候，会和每个用户的信息和验证码进行一个对应，之后，在用户发送post请求的时候
+        ，会对比post请求中的发送的验证码和当前用户正真的存储在服务器端的验证码是否相同
+        1、实例化session
+        2、使用session请求登录页面，获取验证码的地址
+        3、使用session请求验证码，识别
+        4、使用session发送post请求
+    使用selenium登录，遇到验证码
+        url不变，验证码不变，同上
+        url不变，验证码会变
+            1、selenium请求登录页面，同时拿到验证码的地址
+            2、获取登录页面中driver中的cookie，交给requests模块发送验证码请求，识别
+            3、输入验证码，登录
+15、使用selenium的注意事项
+    如果页面中含有iframe，frame，需要先调用driver.switch_to.frame的方法切换iframe/frame中才能定位元素（QQ邮箱登录页面）
+16、scrapy设置代理
+    1）内置
+        在爬虫启动时，提前在os.envrion中设置代理即可
+        import os
+        os.envrion['HTTPS_PROXY'] = 'https://user:passwd@182.168.0.106:8080'
+        os.envrion['HTTP_PROXY'] = '182.168.0.106:8080'
+    2) meta:
+    yield scrapy.Request(url,callback=self.parseHtml,meta={'proxy':"'https://user:passwd@182.168.0.106:8080'"})
+    3) 编写下载中间件
+           def process_request(self,request,spider):
+               request.meta['proxy']=random.choice(self.proxy)
+17、scrapy中间件可以自定义设置响应，而不经过下载器
+    def process_request(self,request,spider):
+        返回response
+        from scrapy.http import HtmlResponse
+        import requests
+
+        result = requests.get(request.url)
+        return Htmlresponse(url=request.url,status=200,headers=None,body=result.content) (body接受的是bytes类型)
+18、scrapy 自定制命令
+    1）在spiders同级创建任意目录，如：commands
+    2）在其中创建 crawlall.py 文件 （此处文件名就是自定义的命令）
+        from scrapy.commands import ScrapyCommand
+        from scrapy.utils.project import get_project_settings
+        class Command(ScrapyCommand):
+            requires_project = True
+            def syntax(self):
+                return '[options]'
+            def short_desc(self):
+                return 'Runs all of the spiders'
+            def run(self, args, opts):
+                spider_list = self.crawler_process.spiders.list()
+                for name in spider_list:
+                    self.crawler_process.crawl(name, **opts.__dict__)
+                self.crawler_process.start()
+        3)在settings.py 中添加配置 COMMANDS_MODULE = '项目名称.目录名称'
+        4)在项目目录执行命令：scrapy crawlall
+19、从url中获取文件名的方法
+	from urllib.parse import urlparse
+	img_path = urlparse('http://i2.chuimg.com/44d24a26b3acd9363a3ae2b7_972w_1296h.jpg?imageView2/1/w/235/h/138/interlace/1/q/90').path
+

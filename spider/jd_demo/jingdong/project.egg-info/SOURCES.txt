@@ -1,0 +1,15 @@
+setup.py
+jingdong/__init__.py
+jingdong/items.py
+jingdong/middlewares.py
+jingdong/pipelines.py
+jingdong/settings.py
+jingdong/spiders/__init__.py
+jingdong/spiders/jd.py
+jingdong/spiders/jd_product.py
+jingdong/spiders/jd_product_distributed.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

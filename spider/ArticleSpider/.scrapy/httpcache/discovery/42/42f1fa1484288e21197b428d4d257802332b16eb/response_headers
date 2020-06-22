@@ -1,0 +1,12 @@
+Server: Tengine
+Content-Type: application/json; charset=utf-8
+X-Powered-By: PHP/7.2.6
+Cache-Control: no-cache, private
+Date: Fri, 06 Sep 2019 06:42:32 GMT
+Ali-Swift-Global-Savetime: 1567752152
+Via: cache15.l2cn1823[177,200-0,M], cache13.l2cn1823[178,0], kunlun2.cn1488[223,200-0,M], kunlun10.cn1488[242,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Swift-Savetime: Fri, 06 Sep 2019 06:42:32 GMT
+X-Swift-Cachetime: 0
+Timing-Allow-Origin: *
+Eagleid: 2782ab1e15677521525001146e

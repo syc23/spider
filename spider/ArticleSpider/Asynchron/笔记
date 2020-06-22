@@ -1,0 +1,30 @@
+1、协程基础
+    import asyncio
+    async def request(url):
+        print("正在下载!")
+        print("下载成功!")
+    c = request('https://www.baidu.com')
+    #实例化一个事件循环对象
+    loop = asyncio.get_event_loop()
+    #创建一个任务对象，将协程对象封装到该对象中
+    task = asyncio.ensure_future(c)
+    #将协程对象注册到事件循环对象中，并且我们需要启动事件循环对象
+    loop.run_until_complete(task)
+    2）给任务对象绑定一个回调函数
+        import asyncio
+        async def request(url):
+              print("正在下载!")
+              print("下载成功!")
+              return url
+        #回调函数必须有一个参数：task
+        #task.result():任务对象中封装的协程对象对应的特殊函数内部的返回值
+        def callback(task):
+            print(task.result())
+        c = request('https://www.baidu.com')
+        #实例化一个事件循环对象
+        loop = asyncio.get_event_loop()
+        #创建一个任务对象，将协程对象封装到该对象中
+        task = asyncio.ensure_future(c)
+        task.add_done_callback(callback)
+        #将协程对象注册到事件循环对象中，并且我们需要启动事件循环对象
+        loop.run_until_complete(task)

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cae2f90c-c2db-47ac-a8cc-5e58940e10d7" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/spider$Idcard.coverage" NAME="Idcard Coverage Results" MODIFIED="1568040356963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+    <SUITE FILE_PATH="coverage/spider$wordcloud_.coverage" NAME="wordcloud_ Coverage Results" MODIFIED="1572417737021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+    <SUITE FILE_PATH="coverage/spider$qiushi.coverage" NAME="qiushi Coverage Results" MODIFIED="1566282138313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/ArticleSpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider$wangyy.coverage" NAME="wangyy Coverage Results" MODIFIED="1566720327911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+    <SUITE FILE_PATH="coverage/spider$lianjia.coverage" NAME="lianjia Coverage Results" MODIFIED="1576399182075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+    <SUITE FILE_PATH="coverage/spider$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1565357626775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/ArticleSpider/utils" />
+    <SUITE FILE_PATH="coverage/spider$ganj.coverage" NAME="ganj Coverage Results" MODIFIED="1565943216336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/code_util" />
+    <SUITE FILE_PATH="coverage/spider$multithread_demo.coverage" NAME="multithread_demo Coverage Results" MODIFIED="1566041658882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+    <SUITE FILE_PATH="coverage/spider$wangyi_soft.coverage" NAME="wangyi_soft Coverage Results" MODIFIED="1566788038197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/GUI" />
+    <SUITE FILE_PATH="coverage/spider$game_login.coverage" NAME="game_login Coverage Results" MODIFIED="1568036603964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/code_util" />
+    <SUITE FILE_PATH="coverage/spider$novel.coverage" NAME="novel Coverage Results" MODIFIED="1577007176068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spider$lianai.coverage" NAME="lianai Coverage Results" MODIFIED="1565352979856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/App" />
+    <SUITE FILE_PATH="coverage/spider$china_weather.coverage" NAME="china_weather Coverage Results" MODIFIED="1570508147118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/JS" />
+    <SUITE FILE_PATH="coverage/spider$YDMHTTPDemo3_x.coverage" NAME="YDMHTTPDemo3.x Coverage Results" MODIFIED="1565933490260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/code_util" />
+    <SUITE FILE_PATH="coverage/spider$ip_deal_js.coverage" NAME="ip_deal_js Coverage Results" MODIFIED="1565188181651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+    <SUITE FILE_PATH="coverage/spider$shanbiao.coverage" NAME="shanbiao Coverage Results" MODIFIED="1570547792483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+    <SUITE FILE_PATH="coverage/spider$zongpaqu.coverage" NAME="zongpaqu Coverage Results" MODIFIED="1577684332301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+    <SUITE FILE_PATH="coverage/spider$fang_tian.coverage" NAME="fang_tian Coverage Results" MODIFIED="1572699849543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+    <SUITE FILE_PATH="coverage/spider$lingdu_ip.coverage" NAME="lingdu_ip Coverage Results" MODIFIED="1567910969217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/JS" />
+    <SUITE FILE_PATH="coverage/spider$baidu_code.coverage" NAME="baidu_code Coverage Results" MODIFIED="1568030872059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+    <SUITE FILE_PATH="coverage/spider$ershoucar.coverage" NAME="ershoucar Coverage Results" MODIFIED="1564814723616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+    <SUITE FILE_PATH="coverage/spider$discovery.coverage" NAME="discovery Coverage Results" MODIFIED="1567749131325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/ArticleSpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider$test.coverage" NAME="test Coverage Results" MODIFIED="1570547781578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/ArticleSpider/utils" />
+    <SUITE FILE_PATH="coverage/spider$weibocommebts.coverage" NAME="weibocommebts Coverage Results" MODIFIED="1564840063969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+    <SUITE FILE_PATH="coverage/spider$simulate_login_github.coverage" NAME="simulate_login_github Coverage Results" MODIFIED="1566570634280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+    <SUITE FILE_PATH="coverage/spider$wangpan.coverage" NAME="wangpan Coverage Results" MODIFIED="1567865924695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/JS" />
+    <SUITE FILE_PATH="coverage/spider$compress.coverage" NAME="compress Coverage Results" MODIFIED="1566716583179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/GUI" />
+    <SUITE FILE_PATH="coverage/spider$js_test.coverage" NAME="js_test Coverage Results" MODIFIED="1565706299257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/JS" />
+    <SUITE FILE_PATH="coverage/spider$bili.coverage" NAME="bili Coverage Results" MODIFIED="1566541422189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/Slid_Code" />
+    <SUITE FILE_PATH="coverage/spider$gsxt_gov.coverage" NAME="gsxt_gov Coverage Results" MODIFIED="1568012067383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/JS" />
+    <SUITE FILE_PATH="coverage/spider$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1566787776444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/ArticleSpider/utils" />
+    <SUITE FILE_PATH="coverage/spider$read_write.coverage" NAME="read_write Coverage Results" MODIFIED="1576831118285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spider$qiye.coverage" NAME="qiye Coverage Results" MODIFIED="1565794983559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/JS" />
+    <SUITE FILE_PATH="coverage/spider$renrenlogin.coverage" NAME="renrenlogin Coverage Results" MODIFIED="1565847791263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/JS" />
+    <SUITE FILE_PATH="coverage/spider$lianai_video.coverage" NAME="lianai_video Coverage Results" MODIFIED="1565360593521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/App" />
+    <SUITE FILE_PATH="coverage/spider$baidu_recognize_code.coverage" NAME="baidu_recognize_code Coverage Results" MODIFIED="1568036731587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/code_util" />
+    <SUITE FILE_PATH="coverage/spider$aipai.coverage" NAME="aipai Coverage Results" MODIFIED="1565709125509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/JS" />
+    <SUITE FILE_PATH="coverage/spider$wordcloud.coverage" NAME="wordcloud Coverage Results" MODIFIED="1564842100455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+    <SUITE FILE_PATH="coverage/spider$ganji.coverage" NAME="ganji Coverage Results" MODIFIED="1565935476128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/ArticleSpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider$run.coverage" NAME="run Coverage Results" MODIFIED="1572695081370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider" />
+    <SUITE FILE_PATH="coverage/spider$dsld.coverage" NAME="dsld Coverage Results" MODIFIED="1570716815055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+    <SUITE FILE_PATH="coverage/spider$.coverage" NAME="破解猫眼电影字体动态加密 Coverage Results" MODIFIED="1571994634022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/BaiduNetdiskDownload/破解猫眼电影字体动态加密" />
+    <SUITE FILE_PATH="coverage/spider$maoyan.coverage" NAME="maoyan Coverage Results" MODIFIED="1565357848153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/App" />
+    <SUITE FILE_PATH="coverage/spider$aa.coverage" NAME="aa Coverage Results" MODIFIED="1566746377774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/GUI" />
+    <SUITE FILE_PATH="coverage/spider$blbl_user_info.coverage" NAME="blbl_user_info Coverage Results" MODIFIED="1565245520139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>base_url</find>
+      <find>(.*):(.*)</find>
+      <find>36270426</find>
+      <find>509654444</find>
+      <find>1336856865</find>
+      <find>黄子韬</find>
+      <find>田馥甄</find>
+      <find>音阙诗听</find>
+      <find>邓紫棋</find>
+      <find>方大同</find>
+      <find>光良</find>
+      <find>Mount</find>
+      <find>004HR1DW0fncPm</find>
+      <find>004J7CWz2UW8Y0</find>
+      <find>md5</find>
+      <find>random</find>
+      <find>headers</find>
+      <find>(.*?):(.*)</find>
+      <find>(.*?): (.*)</find>
+      <find>单雁</find>
+      <find>(.*): (.*)</find>
+      <find>agen</find>
+      <find>3400</find>
+      <find>367994</find>
+      <find>温哥华花园</find>
+      <find>户型方正 位置好 小区环境好  生活交通便利</find>
+      <find>中铁华胥美邦 3室1厅 191万</find>
+      <find>开发区颐欣园精装套三双卫错层设计动静分离</find>
+      <find>四季花城</find>
+      <find>银座动感时代！套三双卫！精装修！拎包入住！</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;$1&quot;:&quot;$2&quot;,</replace>
+      <replace>'$1':'$2',</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ArticleSpider/spiderproject/wangyy.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/GUI/sing_mid.csv" />
+        <option value="$PROJECT_DIR$/ArticleSpider/GUI/aa.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/GUI/test.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/GUI/singer_to_mid.csv" />
+        <option value="$PROJECT_DIR$/ArticleSpider/GUI/wangyi_soft.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/settings.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/discover.json" />
+        <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/spiders/discovery.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/JS/wangpan.js" />
+        <option value="$PROJECT_DIR$/ArticleSpider/JS/passwd.text" />
+        <option value="$PROJECT_DIR$/ArticleSpider/JS/tt.txt" />
+        <option value="$PROJECT_DIR$/ArticleSpider/JS/wangpan.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/JS/零度代理.js" />
+        <option value="$PROJECT_DIR$/ArticleSpider/JS/token.js" />
+        <option value="$PROJECT_DIR$/ArticleSpider/JS/lingdu_ip.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/JS/test.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/spiderproject/ppt.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/pipelines.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/middlewares.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/JS/a.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/JS/gsxt_gov.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/spiderproject/baidu_code.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/code_util/baidu_ai_code.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/spiderproject/game_login.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/code_util/aa.html" />
+        <option value="$PROJECT_DIR$/ArticleSpider/code_util/baidu_recognize_code.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/code_util/game_login.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/spiderproject/id_card.txt" />
+        <option value="$PROJECT_DIR$/ArticleSpider/spiderproject/Idcard.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/JS/test.html" />
+        <option value="$PROJECT_DIR$/ArticleSpider/JS/china_weather.js" />
+        <option value="$PROJECT_DIR$/ArticleSpider/JS/test.js" />
+        <option value="$PROJECT_DIR$/ArticleSpider/JS/china_weather.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/spiderproject/tests.html" />
+        <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/utils/test.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/spiderproject/shanbiao.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/spiderproject/dsld.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/spiders/maoyan.py" />
+        <option value="D:/BaiduNetdiskDownload/破解猫眼电影字体动态加密/破解猫眼电影字体动态加密.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/spiderproject/wordcloud_.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/spiderproject/testss.html" />
+        <option value="$PROJECT_DIR$/ArticleSpider/run.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/spiders/fang.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/spiderproject/test.html" />
+        <option value="$PROJECT_DIR$/ArticleSpider/spiderproject/fang_tian.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/spiderproject/lianjia1.csv" />
+        <option value="$PROJECT_DIR$/ArticleSpider/spiderproject/lianjia.py" />
+        <option value="$PROJECT_DIR$/read_write.py" />
+        <option value="$PROJECT_DIR$/novel.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/spiderproject/zongpaqu.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-54" />
+    <option name="y" value="7" />
+    <option name="width" value="1936" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="ArticleSpider" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../woniu_demo" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\acer\Desktop\spider\ArticleSpider\spiderproject" />
+      <recent name="C:\Users\acer\Desktop\spider\ArticleSpider\code_util" />
+      <recent name="C:\Users\acer\Desktop\spider\ArticleSpider\App\aa" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\acer\Desktop\spider\ArticleSpider\code_util" />
+      <recent name="C:\Users\acer\Desktop\spider\ArticleSpider\JS\lingdu_ip" />
+      <recent name="C:\Users\acer\Desktop\spider\ArticleSpider\code" />
+      <recent name="C:\Users\acer\Desktop\spider\ArticleSpider\spiderproject" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://ptlogin.4399.com" />
+          <option name="urlPath" value="/ptlogin/login.do" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="loginFrom: uframe postLoginHandler: default layoutSelfAdapting: true externalLogin: qq displayMode: popup layout: vertical appId: www_home gameId:  css:  redirectUrl:  sessionId:  mainDivId: popup_login_div includeFcmInfo: false userNameLabel: 4399用户名 userNameTip: 请输入4399用户名 welcomeTip: 欢迎回到4399 sec: 1 password: MTExMTE= username: 2087430921" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="v" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/resources" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.zongpaqu">
+    <configuration name="baidu_recognize_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ArticleSpider/code_util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ArticleSpider/code_util/baidu_recognize_code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="fang_tian" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ArticleSpider/spiderproject/fang_tian.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="lianjia" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ArticleSpider/spiderproject/lianjia.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="novel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/novel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="read_write" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/read_write.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="zongpaqu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ArticleSpider/spiderproject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ArticleSpider/spiderproject/zongpaqu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.fang_tian" />
+      <item index="1" class="java.lang.String" itemvalue="Python.lianjia" />
+      <item index="2" class="java.lang.String" itemvalue="Python.read_write" />
+      <item index="3" class="java.lang.String" itemvalue="Python.novel" />
+      <item index="4" class="java.lang.String" itemvalue="Python.zongpaqu" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.zongpaqu" />
+        <item index="1" class="java.lang.String" itemvalue="Python.novel" />
+        <item index="2" class="java.lang.String" itemvalue="Python.read_write" />
+        <item index="3" class="java.lang.String" itemvalue="Python.lianjia" />
+        <item index="4" class="java.lang.String" itemvalue="Python.fang_tian" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cae2f90c-c2db-47ac-a8cc-5e58940e10d7" name="Default" comment="" />
+      <created>1564801968627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564801968627</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41666666" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47916666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45416668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13432837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.446875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+</project>
